@@ -35,10 +35,10 @@ carouselSlide.addEventListener('transitionend', ()=> {
         carouselSlide.style.transition = "none";
         counter = carouselImages.length - 2;
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-    }
+    };
     if(carouselImages[counter].id === 'first-clone'){
         carouselSlide.style.transition = "none";
         counter = carouselImages.length - counter;
         carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-    }
+    };
 });
