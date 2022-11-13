@@ -9,9 +9,9 @@ body{
 }
 .container{
     width: 40%;
-    margin: 0 auto;
+    margin: auto;
     overflow: hidden; 
-    /* border: 5px solid #fff; */
+    /* border: 5px solid #fff;  */
     position: relative;
 }
 .slide{
@@ -25,16 +25,32 @@ body{
     top: 50%;
     z-index: 10;
     left: 5%;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
+    opacity: .4;
+
+}
+#prev-btn:hover{
+    font-size: 50px;
+    transform: scale(1.5);
+    opacity: 1;
+    transition: .4s;
+
 }
 #next-btn{
     position: absolute;
     top: 50%;
     z-index: 10;
     right: 5%;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     cursor: pointer;
+    opacity: .4;
+}
+#next-btn:hover{
+    font-size: 50px;
+    transform: scale(1.5);
+    opacity: 1;
+    transition: .4s;
 }
